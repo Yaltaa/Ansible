@@ -4,4 +4,3 @@
     - name: Task1
       ansible.builtin.debug:
         msg: hellow from playbook play
-        msg: good morning
