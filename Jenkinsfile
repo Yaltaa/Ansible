@@ -3,7 +3,7 @@ pipeline{
   stages {
     stage('ansible playbook Run'){
     steps{
-    sh 'echo raja'
+    sh 'ansible-playbook 01-simple-playbook.yml'
     }
     }
 
