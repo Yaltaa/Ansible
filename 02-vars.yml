@@ -7,18 +7,5 @@
       ansible.builtin.debug:
         msg: value - {{a}}
 # since it is a play level variable the scope is completely on all taskss
-- name: play for tasks level variables
-  hosts: all
-  tasks:
-    - name: print URL1
-      ansible.builtin.debug:
-        msg: URL - {{URL}}
-      vars:
-        URL: task1.example.com
-    - name: print URL2
-      ansible.builtin.debug:
--       msg: URL - {{URL}}
-        vars:
-          URL: task2.example.com
 
 
