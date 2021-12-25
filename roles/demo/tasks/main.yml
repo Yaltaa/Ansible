@@ -1,0 +1,4 @@
+- name: print msg from role
+  ansibe.builtin.debug:
+    msg: hello from role
+
