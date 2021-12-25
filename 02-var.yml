@@ -7,3 +7,11 @@
       ansible.builtin.debug:
         msg: value - {{a}}
 # since it is a play level variable the scope is completely on all tasks
+- name: play for variable files
+  hosts: all
+  vars_files:
+    sample-var.yml
+  tasks:
+    name: print URL
+     ansible.builtin.deubg
+    msg: URL - {{URL}}
