@@ -6,5 +6,5 @@
     - name: print a value
       ansible.builtin.debug:
         msg: value - {{a}}
-# since it is a play level variable the scope is completely on all tasks
+# since it is a play level variable the scope is completely on all taskss
 
