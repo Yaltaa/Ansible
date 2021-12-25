@@ -12,12 +12,12 @@
   tasks:
     - name: print URL1
       ansible.builtin.debug:
-        msg: URL - {{URL1}}
+        msg: URL - {{URL}}
       vars:
         URL: task1.example.com
     - name: print URL2
       ansible.builtin.debug:
--       msg: URL - {{URL2}}
+-       msg: URL - {{URL}}
         vars:
           URL: task2.example.com
 
