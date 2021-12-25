@@ -10,8 +10,8 @@
 - name: play for variable files
   hosts: all
   vars_files:
-    - sample-var.yml
+    - sample-vars.yml
   tasks:
-    name: Print URL
-     ansible.builtin.deubg
-    msg: URL - {{URL}}
+    - name: Print URL
+      ansible.builtin.deubg
+        msg: URL - {{URL}}
