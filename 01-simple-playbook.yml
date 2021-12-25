@@ -6,4 +6,4 @@
         msg: 'hellow from playbook play by krishna1'
 - name: Task2
   ansible.builtin.debug:
-    msg: 'hellow from playbookk plaby by krishna2'
+    msg: 'hellow from playbookk plaby by krishna3'
